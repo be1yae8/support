@@ -1,0 +1,9 @@
+##### Сборку пакета делает из под пользователя root
+##### Собираем .deb пакет
+##### Скачиваем 
+git clone http://git.dengabank.ru/support/application
+chmod +x application/start_deb
+./application/start_deb
+cd application
+##### В папке, которой мы находимся появляется support.deb
+##### Отдаем бинарник на отпраку в репозиторий
