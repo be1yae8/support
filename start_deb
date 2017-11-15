@@ -1,5 +1,0 @@
-#!/bin/bash
-chmod +x application/etc/support/script/list_interface
-chmod +x application/etc/support/script/ping
-chmod +x application/usr/local/bin/support
-dpkg -b ./application ./application/support.deb
